@@ -1,0 +1,13 @@
+{
+  "texts": {
+    "title": "We're updating Example Shop",
+    "message": "Hold tight — the page reloads on its own as soon as the update is ready."
+  },
+  "assets": {
+    "logo": "public/logo.svg"
+  },
+  "deploy": {
+    "target": null,
+    "minOverlaySeconds": 8
+  }
+}

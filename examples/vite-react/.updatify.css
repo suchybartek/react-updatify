@@ -1,0 +1,11 @@
+/* Example override: swap the accent color and soften the card. */
+:root {
+  --updatify-accent: #0d9488;
+  --updatify-radius: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --updatify-accent: #2dd4bf;
+  }
+}

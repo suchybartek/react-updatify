@@ -1,0 +1,59 @@
+/* .updatify.css — your overrides for the react-updatify screen.
+
+   This file is injected AFTER the default styles, so anything you write here wins.
+   Preview changes without deploying: open your site with ?updatify-preview
+   (also ?updatify-preview=40, ?updatify-preview=indeterminate, ?updatify-preview=banner).
+
+   1) Easiest: uncomment and edit a variable below. */
+
+:root {
+  /* --updatify-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; */
+  /* --updatify-accent: #4f46e5; */
+  /* --updatify-accent-contrast: #ffffff; */
+  /* --updatify-bg: #ffffff; */
+  /* --updatify-fg: #111827; */
+  /* --updatify-muted: #6b7280; */
+  /* --updatify-track: #e5e7eb; */
+  /* --updatify-backdrop: rgba(17, 24, 39, 0.45); */
+  /* --updatify-blur: 8px; */
+  /* --updatify-radius: 16px; */
+  /* --updatify-shadow: 0 20px 50px rgba(0, 0, 0, 0.25); */
+  /* --updatify-card-width: 420px; */
+  /* --updatify-card-padding: 32px; */
+  /* --updatify-title-size: 1.25rem; */
+  /* --updatify-text-size: 0.95rem; */
+  /* --updatify-logo-height: 40px; */
+  /* --updatify-icon-size: 40px; */
+  /* --updatify-bar-height: 8px; */
+  /* --updatify-transition: 0.4s; */
+  /* --updatify-z-index: 2147483000; */
+}
+
+/* Dark mode follows the system by default. To set your own dark colors:
+@media (prefers-color-scheme: dark) {
+  :root {
+    --updatify-accent: #818cf8;
+    --updatify-bg: #1f2937;
+  }
+}
+*/
+
+/* 2) Full control: these class names are stable and safe to target.
+
+   .updatify-overlay          full-screen backdrop
+   .updatify-card             the centered card
+   .updatify-logo             <img> from assets.logo
+   .updatify-icon             spinner (or <img> from assets.icon)
+   .updatify-title            heading
+   .updatify-message          paragraph under the heading
+   .updatify-progress         progress track      (.updatify-progress--indeterminate when no percentage)
+   .updatify-progress-bar     the filled part
+   .updatify-step             current step text, e.g. "Copying files (3/12)"
+   .updatify-banner           "New version available" banner
+   .updatify-banner-text, .updatify-banner-button, .updatify-banner-dismiss
+
+   Example:
+
+.updatify-card { text-align: left; border: 1px solid var(--updatify-track); }
+.updatify-progress-bar { background: linear-gradient(90deg, #f43f5e, #f59e0b); }
+*/
