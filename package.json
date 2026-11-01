@@ -1,8 +1,16 @@
 {
   "name": "react-updatify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zero-downtime \"Updating\" screen for React + Vite apps. Run `npm run build` on the server: the new version is built aside, files are swapped safely, and open tabs show a progress screen and reload themselves.",
-  "keywords": ["react", "vite", "deploy", "update", "maintenance", "build", "overlay"],
+  "keywords": [
+    "react",
+    "vite",
+    "deploy",
+    "update",
+    "maintenance",
+    "build",
+    "overlay"
+  ],
   "license": "MIT",
   "author": "Bartlomiej Suchowirski",
   "repository": {
@@ -23,7 +31,12 @@
   "bin": {
     "react-updatify": "bin/react-updatify.js"
   },
-  "files": ["bin", "src", "README.md", "LICENSE"],
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=18"
   },
